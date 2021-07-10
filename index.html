@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+</head>
+<style>
+    /* css reset */
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url(pexels-victor-freitas-841130.jpg);
+        width: 500px;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(124, 165, 156);
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 10px;
+        display: inline-block;
+    }
+
+    .left img {
+        width: 90px;
+        top: 22px;
+        line-height: 10px;
+    }
+
+    .left div {
+        text-align: center;
+
+        color: darkgoldenrod;
+    }
+
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 54px;
+        display: inline-block;
+
+
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center padding: 10px;
+        padding-left: 300px;
+        padding-right: 30px;
+        padding-top: 10px;
+        text-decoration: underline;
+        transition: 0.5s;
+
+
+    }
+
+    .nav ul {
+        display: inline-block;
+        list-style-type: none;
+
+
+    }
+
+
+    .navbar li {
+        display: inline-block;
+        list-style-type: none;
+        right: 50px;
+        text-align: right;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 32px 32px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        text-decoration: solid;
+        color: bisque;
+        text-decoration: underline;
+    }
+
+    .mid {
+        display: block;
+        width: 26%;
+        margin: 44px auto;
+        top: 22px;
+
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: beige;
+        background-color: black;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        transition: 0.5s ease;
+
+    }
+
+    .btn:hover {
+        background-color: grey;
+        
+    }
+
+    .container {
+        border: 2px solid black;
+        margin: 150px 80px;
+        padding: 85px 95px;
+        width: 60%;
+        border-radius: 20px;
+
+
+
+    }
+
+    .form-group input {
+        font-size: 12px;
+        margin: 11px;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 10px;
+        border: 3px solid black;
+    }
+
+    .container h3 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 54%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="fitness-gym-logo-premium-vector_144543-140.jpg">
+            <div><b>CROSS FIT</b></div>
+
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="main.html" target="_blank" class="Active">Home</a></li>
+                <li><a href="links.html" target="_blank">Insights</a></li>
+                <li><a href="contact.html" target="_blank">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right ">
+            <button class="btn">Call us now
+
+            </button>
+            <button class="btn">Email us</button>
+
+
+
+        </div>
+        <div id='login-form' class='login-page'>
+
+
+        </div>
+
+        </div>
+    </header>
+    <div class="container">
+        <h3>Key to your fitness is here!</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Contact no.">
+            </div>
+            <div class="form-group">
+                <input type='text' name="" placeholder="Locality"><span></span>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Password">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
